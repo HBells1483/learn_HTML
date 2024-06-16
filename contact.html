@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="contact_container">
+        <header>
+            <h2>Contact form</h2>
+            <p>Fill in your details correctly!</p>
+        </header>
+        <!-- This is the form! -->
+         <form>
+            <label for="fname">First name:</label>
+            <br/>
+            <input type="text" id="fname" name="fname" placeholder="Charlotte" required>
+            <br/><br/>
+            <label for="lname">Last name:</label>
+            <br/>
+            <input type="text" id="lname" name="lname" placeholder="Gregory" required>
+            <br/><br/>
+            <label for="email">Email:</label>
+            <br/>
+            <input type="email" id="email" placeholder="@gmail.com" required>
+            <br/><br/>
+            <label for="password">Password:</label>
+            <br/>
+            <input type="password" id="password" placeholder="hdhf84&*" required>
+            <br/><br/>
+            <label for="Birthday">Birthday:</label>
+            <br/>
+            <input type="date" id="birthday" name="birthday" required>
+            <br/><br/>
+            <label for="favoriteColor">Favorite Color:</label>
+            <br/>
+            <input type="color" id="favorite color" name="favorite color">
+            <br/><br/>
+            <label for="Age">Age:</label>
+            <br/>
+            <input type="number" id="Age" name="Age" min="16" max="100">
+            <br/><br/>
+            <label for="phone">Phone Number:</label>
+            <br/>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            <br/><br/>
+            <label for="website">Website</label>
+            <br/>
+            <input type="url" id="website" name="website" placeholder="Enter your website">
+            <br/><br/>
+            <label for="photo">Profile Picture:</label>
+            <br/>
+            <input type="file" id="photo" name="photo" required>
+            <br/><br/>
+            <label for="for appointment">Appointment:</label>
+            <br/>
+            <input type="datetime-local" id="appointment" name="appointment" required>
+            <br/><br/>
+            <!-- This is a submit button! -->
+             <input type="submit" value="Submit:">
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+.navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    background-color:cornsilk;
+}
+.navbar li a{
+    display: block;
+    text-align: left;
+    padding: 14px 18px;
+    text-decoration:underline ;
+    margin: 5px;
+}
+li img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+}
+header{
+  text-align:center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position:static; 
+}
+/* header p{ */
+    /* text-transform:uppercase; */
+    /* text-decoration: underline; */
+/* } */
+li a{
+    color: blue;
+}
+li a:hover{
+  color:goldenrod;  
+}
+li :visited{
+    color: crimson
+}
